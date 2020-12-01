@@ -1,0 +1,11 @@
+Host github.com-work
+        HostName github.com
+        User git
+        AddKeysToAgent yes
+        IdentityFile ~/.ssh/id_work
+
+Host github.com-personal
+        User git
+        HostName github.com
+        AddKeysToAgent yes
+        IdentityFile ~/.ssh/id_personal
